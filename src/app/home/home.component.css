@@ -1,0 +1,27 @@
+.home img
+{
+    width: 100%;
+    object-position: center;
+    height: 600px;
+    object-fit: cover;
+}
+.homecontent
+{
+    position: absolute;
+    top: 60%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.homecontent h1
+{
+    color: white;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 350%;
+    
+}
+.homecontent h2
+{
+    color: white;
+    font-style: italic;
+}

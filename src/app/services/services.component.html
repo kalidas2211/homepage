@@ -1,0 +1,16 @@
+<section class="services">
+    <div class="container">
+        <h1 class="text-center">SERVICES</h1>
+        <p style="text-align: center;">Engineering is the use of scientific principles</p>
+        <div class="row mt-5">
+            <div class="col-lg-3" *ngFor="let cs of services">
+                <div class="box"style="text-align: center;">
+                    <img src="{{cs.image}}"  class="center">
+                    <br>
+                    <p><b>{{cs.name}}</b></p>
+                    <p>{{cs.description}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
